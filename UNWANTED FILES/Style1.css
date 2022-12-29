@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  /*background-image:url("../images/game.png");
+	background-repeat:n;
+	text-decoration: none;*/
+  max-width: 0px;
+}
+
+.shadow1 {
+  box-shadow: 0 5px 10px rgba(235, 236, 240, 0.993),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+#head {
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.418);
+  max-width: 380px;
+  border-radius: 20px;
+  margin: 15px auto 15px;
+}
+.idbox {
+  width: 100x;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  background-color: #3366ff;
+}
+.home {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: auto;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 50px;
+  top: 70px;
+  background-color: #3399ff;
+}
+.home1 {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+.logo1 {
+  width: 5%;
+  margin-left: 93%;
+}
+.center1 {
+  text-align: center;
+  font-weight: bold;
+}
+/* . {
+  border-radius: 20px;
+  width: 5%;
+} */
+.shadow1 input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.shadow1 input[type="text"]:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 8px 0 #00ffff;
+}
+.siderbar {
+  width: 25%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.drs:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 8px 0 #00ffff;
+}
+.butonn {
+  height: 30px;
+  padding: 3% 100px 12px 490px;
+  margin: 0 auto;
+}
+.butonn input[type="button"] {
+  border: NONE;
+  outline: none;
+  width: 350px;
+  height: 35px;
+  margin: -10px 0px 0px -55px;
+  background: #3366ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.butonn input[type="button"]:focus {
+  cursor: pointer;
+  background: #ff3300;
+  color: #000;
+}
+.butonn button a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.butonne {
+  border: NONE;
+  outline: none;
+  width: 250px;
+  height: 35px;
+  background: #3366ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.butonne:focus {
+  cursor: pointer;
+  background: #7fe817;
+  color: #000;
+}
+.tit {
+  float: center;
+  list-style-type: none;
+}
+.main ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 42px;
+  margin-right: 67px;
+}
+.main ul li {
+  display: inline-block;
+}
+.main ul li a {
+  text-decoration: none;
+  color: Black;
+  padding: 5px 20px;
+  border: 1px sloid #fff;
+  font-family: poppins;
+  font-size: 19px;
+  transition: 0.7s ease;
+}
+.main ul li a:hover {
+  background-color: lightblue;
+  color: #7fe817;
+}
+.main ul li.active a {
+  background-color: lightblue;
+  color: #000;
+}
+
+/*game display page css*/
+.docbox {
+  position: relative;
+  width: 1100px;
+  height: 1100px;
+  margin: 0px auto;
+}
+.docbox .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #ff9900;
+  float: right;
+  margin: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.docbox .box .bicon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00ff00;
+  transition: 0.8s;
+  z-index: 1;
+}
+.docbox .box:hover .bicon {
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.docbox .box .bicon .logbcon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.8s;
+}
+.docbox .box:hover .bicon .logbcon {
+  width: 70px;
+  height: 70px;
+}
+.docbox .box .content {
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.8s;
+  opacity: 0;
+  color: #ffff;
+}
+.docbox .box:hover .content {
+  top: 100px;
+  opacity: 1;
+  text-align: center;
+}
+.docbox .box .content h3 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
+.docbox .box .content p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.siderbar {
+  margin: 0;
+  padding: o;
+  user-select: none;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  width: 250px;
+  left: 0;
+  background: #1b1b1b;
+}
+.siderbar .side {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+}

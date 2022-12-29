@@ -1,0 +1,53 @@
+.main-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-div1 {
+  background-color: white;
+  height: auto;
+}
+
+.sub-div2 {
+  background-color: white;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-divContainer {
+  width: 390px;
+  height: 40%;
+  background-color: white;
+  text-align: center;
+}
+
+.button-div button {
+  width: 160px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 3px 5px rgba(167, 167, 167, 0.471);
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-div button:hover {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(238, 255, 0);
+  color: rgb(19, 0, 128);
+  border: none;
+  box-shadow: 0 3px 5px rgba(167, 167, 167, 0.471);
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.headerTextDiv {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    
+  }
+
+
+.crdSystem {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonDiv {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
+  #cancel {
+   
+    padding: 12px 48px;
+    text-align: center;
+    background-color: cornsilk;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: bold;
+  }
+ 
+
+#cancel:hover {
+  background-color: red;
+  color: seashell;
+}
+
+  
+  #pay {
+    margin-left: 30px;
+    padding: 12px 48px;
+    text-align: center;
+    background-color: cornsilk;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15;
+    font-weight: bold;
+
+
+  }
+  #pay:hover {
+    background-color: green;
+    color: seashell;
+  }
+ 

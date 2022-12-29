@@ -1,0 +1,155 @@
+.alm-container {
+  margin-left: 20px;
+  font-family: "Bree Serif", serif;
+  margin-bottom: 20px;
+}
+.alm-container h2 {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 150%;
+}
+
+.table {
+  width: 730px;
+  height: 600px;
+  overflow: scroll;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.tablebtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 8px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: medium;
+}
+.tablebtn2 {
+  background-color: red;
+  color: white;
+  padding: 8px;
+  margin: 10px 8px 10px 8px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: medium;
+  z-index: -1;
+}
+
+.tablebtn:hover {
+  background-color: #018a58;
+}
+
+.tablebtn2:hover {
+  background-color: #ffffff;
+  color: red;
+  box-shadow: inset 0 0 0 2px red;
+}
+
+/*c-box box*/
+.cbtn,
+.dbtn {
+  float: left;
+  width: 45%;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  border: none;
+  font-family: "Bree Serif", serif;
+  cursor: pointer;
+}
+
+.cbtn {
+  background-color: #ccc;
+  color: black;
+  margin-right: 5px;
+}
+
+.dbtn {
+  background-color: red;
+  margin-left: 5px;
+}
+
+.content-container {
+  padding: 16px;
+  text-align: center;
+}
+
+.content-container h2 {
+  margin-top: 0;
+}
+
+.c-box {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(221, 13%, 32%, 0.329);
+  padding-top: 50px;
+}
+
+.c-box-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  font-family: "Bree Serif", serif;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.c-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.c-buttons::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/Back1.png"); /*Headder Image*/
+	/*background-color: white;*/
+	height: 95vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+}
+.main ul li{
+	display: inline-block;
+}
+.main ul li a{
+	text-decoration: none;
+	color: Black;
+	padding: 5px 20px;
+	border: 1px sloid #fff;
+	font-family: poppins;
+	font-size: 19px;
+	transition: 0.7s ease;
+}
+.main ul li a:hover{
+	background-color: lightblue;
+	color: #000;
+}
+.main ul li.active a{
+	background-color: lightblue;
+	color: #000;	
+}
+.logo img{
+	float: left;
+	width: 5%;
+	margin-top: 10px;
+
+	
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title  h1{
+	color: #fff;
+	font-size: 40px;
+	margin: auto;
+}
+.cities {
+    background-color:gray;
+    color:white;
+	
+	width: Auto;
+    margin: 0px 0px;
+    padding: 10px;
+}
+/*image slider*/
+.maindiv{
+	    width:1000px;
+		height: 800px;
+		position: absolute;
+		left: auto;
+		top: auto;
+		background-image: url("../img/4.jpg");
+		background-size: 100% 100%;
+		box-shadow: 1px 2px 10px 5px white;
+		animation: slider 20s infinite linear;/*name,duration,how many time,transaction*/
+}
+				
+@keyframes slider
+{
+		25%{background-image: url("../img/1.jpg")}
+		50%{background-image: url("../img/2.jpg");}
+		75%{background-image: url("../img/3.jpg");}
+}
+/*image slider stop*/
+/*fotter social icons css part*/
+.grade {
+	background-color: #53ace7;
+}
+.fotter-icons{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	margin-top: auto;
+}
+.fotter-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.fotter-icons ul li{
+	Display: inline-block;
+	width:50px;
+	height: 50px;
+	margin: 5px 10px;
+	border-radius:100%;
+	background: #0033ff;
+}
+.fotter-icons ul li:hover{
+	background: #fff;
+}
+.fotter-icons ul li:hover a{
+	color: #f00;
+}
+.fotter-icons ul li a{
+	color: #272727;
+	font-size: 25px;
+	display: block;
+}
+.fotter-icons ul li a i{
+	line-height: 50px;
+}
+/*fotter manu one*/
+.fotter-manu{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+.fotter-manu ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.fotter-manu ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.fotter-manu ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.fotter-manu ul li a:hover{
+	color: #ea0a0a;
+}
+/*fotter manu Two*/
+.fotter-manu-1{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+.fotter-manu-1 ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.fotter-manu-1 ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.fotter-manu-1 ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.fotter-manu-1 ul li a:hover{
+	color: #ea0a0a;
+}
+/*fotter bottom*/
+.fotter-bottom{
+	width: 98%;
+	height: auto;
+	margin: auto;
+	background: #00ffff;
+	padding: 5px;
+}
+.fotter-bottom p{
+	font-family: arial;
+	font-size: 11px;
+	text-align: center;
+	color: #000;
+}
+/*fotter stop*/

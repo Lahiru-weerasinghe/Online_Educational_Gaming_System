@@ -1,0 +1,50 @@
+/*.background{
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	
+}*/
+
+.page-not-found{
+    position: absolute;
+    left: 35%;
+    top: 20%;   
+    justify-content: center;   
+}
+
+.page-not-found img{
+	width: 400px;
+	height: 200px;
+}
+
+h1{
+	color: red;
+	font-family: "Bree Serif", serif;
+	font-weight: 700;
+	font-size: 60px;
+	margin: 40px 15px 0px 0px;
+}
+h2{
+	color: purple;
+	font-family: "Bree Serif", serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 30px 15px 0px 40px;
+}
+
+p{
+	color: darkcyan;
+	font-family: "Bree Serif", serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+p a{
+	color: purple;
+	cursor: pointer;
+}
+
+p a:hover{
+	color: red;
+}

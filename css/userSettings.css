@@ -1,0 +1,97 @@
+.st-container {
+  display: flex;
+}
+.setting-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-details {
+  font-size: 18px;
+  width: 500px;
+}
+.st-image {
+  margin-left: 180px;
+  height: 80px;
+  width: 80px;
+}
+.save-button {
+  margin-left: 250px;
+  padding: 12px 48px;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: green;
+}
+.save-button:hover {
+  background-color: chartreuse;
+}
+.delete-button {
+  margin-left: 132px;
+  padding: 12px 48px;
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.delete-button:hover {
+  background-color: chocolate;
+}
+.fields {
+  width: 300px;
+  padding: 8px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.form-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  font-family: "Bree Serif", serif;
+}
+
+.form-item input[type="file"] {
+  width: 300px;
+  cursor: pointer;
+  font-family: "Bree Serif", serif;
+}
+
+#change-pass {
+  display: flex;
+  flex-direction: column;
+}
+#change-pass input {
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 8px 20px;
+}
+#change-pass p {
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+.us-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.pass-form {
+  width: 500px;
+}
+
+#prevIMG {
+  width: 100px;
+  height: 100px;
+}
+.selected-image {
+  margin-left: 250px;
+}

@@ -1,0 +1,177 @@
+.ag-container {
+  margin-left: 50px;
+  font-family: "Bree Serif", serif;
+  margin-bottom: 20px;
+}
+.ag-container h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+
+.form-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.form-item input[type="text"] {
+  height: 25px;
+}
+
+.form-item input[type="text"],
+textarea {
+  width: 450px;
+}
+.form-item input[type="file"],
+select {
+  width: 455px;
+}
+
+select {
+  cursor: pointer;
+  padding: 10px 5px;
+  font-family: "Bree Serif", serif;
+}
+
+select:after {
+  background-color: white;
+}
+
+.ag-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.reset-btn,
+.addgame-btn {
+  background-color: white;
+  border: solid 1px rgb(224, 217, 217);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 2px black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 20px;
+  width: 150px;
+
+  font-family: "Bree Serif", serif;
+  font-size: 15px;
+  color: black;
+}
+
+.reset-btn:hover,
+.addgame-btn:hover {
+  color: red;
+  box-shadow: inset 0 0 0 2px red;
+  border: none;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border: 1px solid black;
+}
+
+input[type="file"] {
+  cursor: pointer;
+  font-family: "Bree Serif", serif;
+}
+
+/*c-box box*/
+.cbtn,
+.dbtn {
+  float: left;
+  width: 45%;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  border: none;
+  font-family: "Bree Serif", serif;
+  cursor: pointer;
+}
+
+.cbtn {
+  background-color: #ccc;
+  color: black;
+  margin-right: 5px;
+}
+
+.dbtn {
+  background-color: red;
+  margin-left: 5px;
+}
+
+.content-container {
+  padding: 16px;
+  text-align: center;
+}
+
+.content-container h2 {
+  margin-top: 0;
+}
+
+.c-box {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(221, 13%, 32%, 0.329);
+  padding-top: 50px;
+}
+
+.c-box-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  font-family: "Bree Serif", serif;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.c-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.c-buttons::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.submit-btn {
+  display: none;
+}

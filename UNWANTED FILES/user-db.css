@@ -1,0 +1,68 @@
+.u-container 
+{
+  display: flex;
+}
+
+.db-container 
+{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 400px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+#p2 
+{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.history 
+{
+  width: 350px;
+}
+.history h2 
+{
+  border: 1px solid black;
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  padding: 4px 4px 0px;
+  display: block;
+  font-size: 20px;
+}
+.history table 
+{
+  border-collapse: collapse;
+  border-spacing: 0px;
+  empty-cells: show;
+}
+.table-body
+{
+  overflow: scroll;
+}
+#row1 
+{
+  height: 220px;
+}
+.stats
+{
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  padding: 20px;
+}
+#p3 
+{
+  margin-top: -5px;
+  font-size: 20px;
+  text-align: center;
+}
+.db-pic
+{
+  height: 150px;
+  width: 120px;
+  margin-left: 65px;
+}

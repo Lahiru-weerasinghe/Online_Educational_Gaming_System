@@ -1,0 +1,170 @@
+.setting-form {
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.form-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  font-family: "Bree Serif", serif;
+}
+
+.form-item input[type="text"],
+#change-pass input {
+  height: 35px;
+  width: 300px;
+}
+
+.form-item input[type="file"] {
+  width: 300px;
+  cursor: pointer;
+  font-family: "Bree Serif", serif;
+}
+
+#change-pass {
+  display: flex;
+  flex-direction: column;
+}
+#change-pass input {
+  margin-bottom: 10px;
+}
+
+.as-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.save-btn {
+  background-color: white;
+  border: solid 1px rgb(224, 217, 217);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 2px black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 20px;
+  width: 150px;
+
+  font-family: "Bree Serif", serif;
+  font-size: 15px;
+  color: black;
+}
+
+.save-btn:hover {
+  color: red;
+  box-shadow: inset 0 0 0 2px red;
+  border: none;
+}
+
+#prevIMG {
+  width: 100px;
+  height: 100px;
+}
+.selected-image {
+  margin-left: 250px;
+}
+
+.psave-btn {
+  display: none;
+}
+
+/*c-box box*/
+.cbtn,
+.dbtn {
+  float: left;
+  width: 45%;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  border: none;
+  font-family: "Bree Serif", serif;
+  cursor: pointer;
+}
+
+.cbtn {
+  background-color: #ccc;
+  color: black;
+  margin-right: 5px;
+}
+
+.dbtn {
+  background-color: red;
+  margin-left: 5px;
+}
+
+.content-container {
+  padding: 16px;
+  text-align: center;
+}
+
+.content-container h2 {
+  margin-top: 0;
+}
+
+.c-box {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(221, 13%, 32%, 0.329);
+  padding-top: 50px;
+}
+
+.c-box-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  font-family: "Bree Serif", serif;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.c-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.c-buttons::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.submit-btn {
+  display: none;
+}

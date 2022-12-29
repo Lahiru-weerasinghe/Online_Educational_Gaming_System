@@ -1,0 +1,47 @@
+#heading1 {
+  text-align: center;
+}
+.cu-body {
+  display: block;
+  margin-left: 200px;
+}
+.fields {
+  align-items: center;
+  width: 75%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#descr{
+  width: 75%;
+  height: 80px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin: 8px;
+}
+.btn1 {
+  background-color: forestgreen;
+  border: black;
+  color: white;
+  padding: 8px 12px;
+  margin: 4px 2px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 200px;
+}
+.btn2 {
+  background-color: forestgreen;
+  border: black;
+  color: white;
+  padding: 8px 12px;
+  margin: 4px 2px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.btn1:hover {
+  background-color: rgb(21, 200, 21);
+}

@@ -1,0 +1,15 @@
+.subject-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 99%;
+  margin: 20px 0;
+}
+.subject-container img {
+  width: 200px;
+  height: 200px;
+}
+.gbox {
+  text-align: center;
+  width: 250px;
+}

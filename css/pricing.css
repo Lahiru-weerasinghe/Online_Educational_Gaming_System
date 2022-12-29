@@ -1,0 +1,124 @@
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+}
+.headerTextDiv {
+  position: relative;
+  width: 100%;
+  height: 70;
+  text-align: center;
+}
+
+.toggleSwithDiv {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.upgradeCardDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25em;
+  margin: 5em 0 5em 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgradeCard {
+  width: 15em;
+  height: 24em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.102);
+  border: 2px solid #eeee;
+  text-align: center;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.upgradeCard ul {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.upgradeCard ul li {
+  list-style: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+.upgradeCard button {
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px !important;
+  background-color: #ffffff !important;
+  border-color: black !important;
+  margin-bottom: 10px !important;
+}

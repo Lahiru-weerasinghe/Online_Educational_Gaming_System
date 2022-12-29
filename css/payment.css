@@ -1,0 +1,27 @@
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.formDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formDiv form input {
+  background-color: #ffffff;
+  height: 35px;
+  width: 250px;
+  margin: 10px;
+}
+
+.formDiv form button {
+  width: 150px;
+  margin-left: 15px;
+}
